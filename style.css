@@ -156,6 +156,7 @@ img {
   width: 30%;
   bottom: 160%;
   position: absolute;
+  animation: example1 1s forwards;
 }
 @keyframes example1 {
   from {
@@ -163,6 +164,14 @@ img {
   }
   to {
     transform: rotateX(358deg);
+  }
+}
+@keyframes example13 {
+  from {
+    display: block;
+  }
+  to {
+    display: none;
   }
 }
 .img1 {
