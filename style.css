@@ -198,6 +198,18 @@ img {
   position: relative;
   background-image: url(img/2079_front.webp);
 }
+.img33{
+  animation: example323 .6s forwards;
+  animation-delay: 1s;
+}
+@keyframes example323 {
+  0% {
+    display: block;
+  }
+  100% {
+    display: none;
+  }
+}
 .imagd {
   height: 100%;
   position: absolute;
@@ -255,7 +267,7 @@ img {
   .cart-image {
     position: relative;
     transform-style: preserve-3d;
-    width: 500px;
+    width: 492px;
     height: 340px;
     }
 }

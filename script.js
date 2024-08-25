@@ -1,6 +1,7 @@
 let m = document.getElementsByClassName("sarpacat")[0].addEventListener("click", function () {
     console.log("mohamad");
     document.getElementById("imagd2").classList.add("imagd12");
+    document.getElementById("img3").classList.add("img33");
     this.classList.add("sarpacat2");
   });
 
