@@ -2,6 +2,7 @@ let m = document.getElementsByClassName("sarpacat")[0].addEventListener("click",
     console.log("mohamad");
     document.getElementById("imagd2").classList.add("imagd12");
     document.getElementById("img3").classList.add("img33");
+    document.getElementById("player-container").classList.add("player-container2");
     this.classList.add("sarpacat2");
   });
 
